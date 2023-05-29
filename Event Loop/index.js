@@ -14,5 +14,3 @@ const myPromise = new Promise((resolve, reject) => {
 }).then((value) => console.log(value));
 
 console.log(5);
-
-// отсчет 3 сек
