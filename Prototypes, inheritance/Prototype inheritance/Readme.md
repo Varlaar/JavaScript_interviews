@@ -35,40 +35,40 @@ const user = {
 ```
 
 ***Добавляем в прототип главного объекта Object метод sayBuy***
-
+```java script
 Object.prototype.sayBye = function () {
   console.log(`Bye, ${this.name}!`);
 };
-
+```
 ***Теперь видим все методы и св-ва доступны для объекта user***
-
+```java script
 console.log(user.name); // Alex;
 user.sayHello(); // Hello, Alex!
 user.sayBye(); // Bye, Alex!
-
+```
 ***Создаем новый объект newUser, который наследуется от user. Также перезаписываем у него свойство name на Лена***
-
+```java script
 const newUser = Object.create(user, {
   name: { value: "Lena", writable: false },
 });
-
+```
 ***Также можем добавлять/удалять поля в новом объекте newUser через точку***
-
+```java script
 newUser.isAdmin = true;
-
+```
 ***Смотрим результаты вывода в консоль***
-
+```java script
 console.log(newUser.name); // Lena
 console.log(newUser.age); // 30
 console.log(newUser.isAdmin); // true
 newUser.sayHello(); // Hello, Lena!
 newUser.sayBye(); // Bye, Lena!
-
+```
 ***Теперь не сможем перезаписать св-во, т.к. writable: false***
-
+```java script
 newUser.name = 'Dima';
 console.log(newUser.name); // Uncaught TypeError: Cannot assign to read only property 'name' of object '#<Object>'
-
+```
 ***1.2 Содание объекта с __proto__***
 
 __proto__ — это ссылка на prototype, а prototype — это собственно свойство.
