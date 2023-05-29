@@ -69,6 +69,9 @@ newUser.sayBye(); // Bye, Lena!
 newUser.name = 'Dima';
 console.log(newUser.name); // Uncaught TypeError: Cannot assign to read only property 'name' of object '#<Object>'
 ```
+
+
+
 ***1.2 Содание объекта с __proto__***
 
 __proto__ — это ссылка на prototype, а prototype — это собственно свойство.
