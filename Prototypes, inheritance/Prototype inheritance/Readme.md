@@ -23,7 +23,7 @@
 ***Пример*** 
 
 ***Создаем объект user:***
-
+```java script
 const user = {
   name: "Alex",
   age: 30,
@@ -31,7 +31,7 @@ const user = {
   sayHello: function () {
     console.log(`Hello, ${this.name}!`);
   },
-};
+};```
 
 ***Добавляем в прототип главного объекта Object метод sayBuy***
 
