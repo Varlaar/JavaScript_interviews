@@ -31,7 +31,8 @@ const user = {
   sayHello: function () {
     console.log(`Hello, ${this.name}!`);
   },
-};```
+};
+```
 
 ***Добавляем в прототип главного объекта Object метод sayBuy***
 
