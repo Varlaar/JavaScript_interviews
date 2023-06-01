@@ -133,7 +133,7 @@ console.log(newPerson.__proto__ === person); // true
 `Object.getPrototypeOf(obj)` – возвращает свойство `[[Prototype]]` объекта `obj` (то же самое, что и геттер `__proto__`).
 
 `Object.setPrototypeOf(obj, proto)` – устанавливает свойство `[[Prototype]]` объекта `obj` как `proto` (то же самое, что и сеттер `__proto__`).<br><br><br>
-### 2. Конструкторное наследование<br><br>
+## 2. Конструкторное наследование<br><br>
 
 **Конструкторное наследование** - это подход к созданию классов и объектов в JS, которое также использует механизм прототипов.
 
@@ -226,7 +226,7 @@ console.log(employee.age); // 38
 employee.greating(); // Hello, Dima!
 ```
 <br><br><br>
-### 4. Наследование через Object.setPrototypeOf().<br><br>
+## 4. Наследование через Object.setPrototypeOf().<br><br>
 
 `Object.setPrototypeOf(obj, proto)` – устанавливает свойство `[[Prototype]]` объекта obj как proto (то же самое, что и сеттер `__proto__`). <br><br><br>
 **Пример**
