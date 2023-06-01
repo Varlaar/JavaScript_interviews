@@ -127,7 +127,7 @@ console.log(person.__proto__ === Object.prototype); // true
 console.log(newPerson.__proto__ === person); // true
 ```
 <br>**P.S.** *Свойство `__proto__` считается устаревшим, и по стандарту оно должно поддерживаться только браузерами.*<br><br>
-### Современные же методы это:
+**Современные же методы это:**
 <br>`Object.create(proto[, descriptors])` – создаёт пустой объект со свойством `[[Prototype]]`, указанным как proto (может быть `null`), и необязательными дескрипторами свойств.
 
 `Object.getPrototypeOf(obj)` – возвращает свойство `[[Prototype]]` объекта `obj` (то же самое, что и геттер `__proto__`).
