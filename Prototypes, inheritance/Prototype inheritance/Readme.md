@@ -7,8 +7,8 @@
 
 ## 1. Объектное наследование
 
-### 1.1 Содание объекта с помощью `Object.create(proto, propertiesObject)`<br><br>
-Метод `Object.create(proto, propertiesObject)` создает новый объект, используя существующий объект в качестве прототипа вновь созданного объекта.
+### 1.1 Содание объекта с помощью `Object.create(proto, propertiesObject)`.
+<br>Метод `Object.create(proto, propertiesObject)` создает новый объект, используя существующий объект в качестве прототипа вновь созданного объекта.
 
 `proto`
 
@@ -121,8 +121,7 @@ console.log(newPerson.name); // Max
 console.log(newPerson.age); // 20
 newPerson.sayHello(); // Hello, Max!
 ```
-<br>
-**ВАЖНО:** *Так как каждый объект в JavaScript имеет свойство `proto`, которое указывает на его прототип (или объект-прототип), мы делаем выводы, что прототипом объекта `person` является главный объект `Object`, а прототипом для newPerson является объект `person`*<br><br>
+<br>**ВАЖНО:** *Так как каждый объект в JavaScript имеет свойство `proto`, которое указывает на его прототип (или объект-прототип), мы делаем выводы, что прототипом объекта `person` является главный объект `Object`, а прототипом для newPerson является объект `person`*<br><br>
 
 ```js
 console.log(person.__proto__ === Object.prototype); // true
