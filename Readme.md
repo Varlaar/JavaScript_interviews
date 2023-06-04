@@ -1,1 +1,1 @@
-# Preparing for Java Script interviews with code examples.
+# Preparing for JavaScript interviews with code examples.
