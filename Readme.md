@@ -1,1 +1,1 @@
-# Preparing for `JavaScript` interviews.
+# Preparing for **JavaScript** interviews.
