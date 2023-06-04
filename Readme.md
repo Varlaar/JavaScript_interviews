@@ -1,1 +1,1 @@
-# Подготовка к собеседованию по Java Script
+# Preparing for Java Script interviews with code examples.
