@@ -8,7 +8,7 @@
 ## 1. Объектное наследование
 <br>  
 
-### 1.1 Содание объекта с помощью `Object.create(proto, propertiesObject)`.
+### 1.1 Содание объекта с помощью `Object.create(proto, propertiesObject)`
 <br>Метод `Object.create(proto, propertiesObject)` создает новый объект, используя существующий объект в качестве прототипа вновь созданного объекта.
 
 <br>`proto`
@@ -79,7 +79,7 @@ console.log(newUser.name); // Uncaught TypeError: Cannot assign to read only pro
 ```
 <br><br>
 
-### 1.2 Содание объекта с `__proto__`.<br><br>
+### 1.2 Содание объекта с `__proto__`<br><br>
 `__proto__` — это ссылка на prototype, а prototype — это собственно свойство.
 
 <br>`__proto__`, также известный как объект-прототип, является важным механизмом в JavaScript, который отвечает за наследование и общую доступность свойств и методов в объектах.
@@ -230,7 +230,7 @@ employee.greating(); // Hello, Dima!
 ```
 <br><br><br>
 
-## 4. Наследование через Object.setPrototypeOf().<br><br>
+## 4. Наследование через Object.setPrototypeOf()<br><br>
 
 `Object.setPrototypeOf(obj, proto)` – устанавливает свойство `[[Prototype]]` объекта `obj` как `proto` (то же самое, что и сеттер `__proto__`). <br><br>
 
