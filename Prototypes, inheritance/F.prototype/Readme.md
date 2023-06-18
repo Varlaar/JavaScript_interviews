@@ -18,7 +18,7 @@ const user = {
   job: "developer",
 };
 ```
-<br>*Создаем функцию-конструктор `Admin`*
+<br>*Создаем функцию-конструктор `Admin`:*
 ```js
 function Admin(name, isAdmin) {
   this.name = name, 
