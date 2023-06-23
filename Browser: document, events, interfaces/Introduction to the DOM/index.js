@@ -10,7 +10,3 @@ setTimeout(() => (document.body.style.background = ""), 1000);
 
 // На какой платформе запущен браузер
 console.log(navigator.platform);
-
-
-
-
