@@ -47,7 +47,7 @@ console.log(navigator.platform);
 
 `DOM` – это представление `HTML-документа` в виде узлов (или нод).<br><br>
 
-Вот как оно выглядит:<br><br>
+Пример структуры DOM-дерева:<br><br>
 
 <p align="center">
   <img src="./assets/images/DOM_model.png" />
@@ -63,7 +63,7 @@ console.log(navigator.platform);
 <li>табуляция: \t</li>
 </ul><br>
 
-*Комментарии* - это тоже узлы в DOM, обозначенные как #comment.<br><br>
+*Комментарии* - это тоже узлы в DOM, обозначенные как `#comment`.<br><br>
 
 **P.S**: Даже директива `<!DOCTYPE...>`, которую мы ставим в начале `HTML`, тоже является DOM-узлом. Она находится в дереве DOM прямо перед `<html>`. 
 
