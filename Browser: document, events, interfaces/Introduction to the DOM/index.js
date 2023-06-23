@@ -1,6 +1,12 @@
 /* Introduction to the DOM */
 
-console.log(window.innerHeight); // Высота окна в браузере
-console.log((document.body.style.background = "red")); // Сменить фон страницы на розовый
-setTimeout(() => document.body.style.background = "", 1000);
-console.log(navigator.platform); // На какой платформе запущен браузер
+// Высота окна в браузере
+console.log(window.innerHeight);
+
+// Сменить фон страницы на розовый
+document.body.style.background = "red";
+// а через секунду вернём как было
+setTimeout(() => (document.body.style.background = ""), 1000);
+
+// На какой платформе запущен браузер
+console.log(navigator.platform);
