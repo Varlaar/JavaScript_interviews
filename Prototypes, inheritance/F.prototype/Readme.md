@@ -174,6 +174,11 @@ Fn.prototype = {
 const users = new Fn();
 console.log(users.constructor === Fn); // true
 ```
+
+<br><br>
+
+##  Отличие F.prototype от Prototype
+
 <br>**Итого:**
 
 1. Свойство `F.prototype` (не путать с `[[Prototype]]`) устанавливает`[[Prototype]]` для новых объектов при вызове `new F()`. 
